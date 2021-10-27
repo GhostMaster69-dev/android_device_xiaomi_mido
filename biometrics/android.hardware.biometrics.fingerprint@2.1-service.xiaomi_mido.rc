@@ -14,6 +14,10 @@ service vendor.gx_fpd /vendor/bin/gx_fpd
      group system drmrpc
      writepid /dev/cpuset/system-background/tasks
 
+on post-fs-data
+    mkdir /data/vendor/goodix 0770 system system
+    mkdir /data/vendor/fpc 0770 system system
+
 on boot
     # Fingerprint Permissions
     chown system system /dev/goodix_fp
