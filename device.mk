@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Apex Updates
+PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_prebuilt
+PRODUCT_PROPERTY_OVERRIDES := ro.apex.updatable=true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
