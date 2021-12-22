@@ -22,4 +22,7 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Ultra Power Saving -->
+    <bool name="config_supportUltraPowerSaving">true</bool>
+
 </resources>
