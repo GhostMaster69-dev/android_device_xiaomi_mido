@@ -87,8 +87,9 @@ PRODUCT_PACKAGES += \
     libantradio
 
 # Apex Updates
+PRODUCT_COMPRESSED_APEX := false
 PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_prebuilt
-PRODUCT_PROPERTY_OVERRIDES := ro.apex.updatable=true
+PRODUCT_VENDOR_PROPERTIES := ro.apex.updatable=true
 
 # Audio
 PRODUCT_PACKAGES += \
