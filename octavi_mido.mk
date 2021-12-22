@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common Octavi-OS stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Charger
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
