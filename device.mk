@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
     libcamshim \
     libmm-qcamera \
     libui_shim \
-    Snap
+    CameraGo
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
