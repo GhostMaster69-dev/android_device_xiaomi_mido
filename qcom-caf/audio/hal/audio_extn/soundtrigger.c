@@ -601,7 +601,7 @@ void audio_extn_sound_trigger_update_stream_status(struct audio_usecase *uc_info
         if (is_same_as_st_device(uc_info->in_snd_device))
             update_device_list(&ev_info.device_info.devices, ST_DEVICE_HANDSET_MIC, "", true);
     } else {
-        ALOGV("%s: invalid input device 0x%x, for event %d",
+        ALOGE("%s: invalid input device 0x%x, for event %d",
                     __func__, uc_info->in_snd_device, event);
     }
     raise_event = platform_sound_trigger_usecase_needs_event(uc_info->id);

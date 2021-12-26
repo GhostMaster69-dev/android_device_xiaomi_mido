@@ -1,7 +1,7 @@
+//libgralloc
 cc_library_shared {
     name: "libgralloc.qti",
-    vendor_available: true,
-    system_ext_specific: true,
+    vendor: true,
     cflags: [
         "-Wno-sign-conversion",
         "-DLOG_TAG=\"qtigralloc\"",
