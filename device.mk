@@ -393,7 +393,6 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0 \
     extphonelib \
     librmnetctl \
     libcnefeatureconfig \
@@ -411,12 +410,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
     android.hardware.radio@1.5.vendor \
-    android.hardware.radio@1.4.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.secure_element@1.2.vendor \
-    android.hardware.secure_element@1.1.vendor \
-    android.hardware.secure_element@1.0.vendor
+    android.hardware.secure_element@1.2.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
