@@ -327,6 +327,7 @@ service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 
 on property:sys.boot_completed=1
     start vendor.qcom-post-boot
+    restart vendor.qcrild
 
 service vendor.charger /system/bin/charger
     class charger
